@@ -1,25 +1,74 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Skills from './components/Skills';
+import Bgadvisors from './components/Bgadvisors';
+import Reenvision from "./components/Reenvision";
+import Swiggy from "./components/Swiggy";
+import Youtube from "./components/Youtube"
+import "./App.css"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import React, { useEffect } from 'react';
+import Body from "./components/Body"
+import Head from "./components/Head"
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import NickHandymanServices from './components/NickHandymanServices';
+import Footer from './components/Footer';
+const appRouter = createBrowserRouter([
+  {
+  path : "/", 
+  element : <Body/>,
+  },
+    {
+      path:"/nicks-handyman-services",
+      element : <NickHandymanServices/>
+    },
+    {
+      path:"/bgadvisors",
+      element : <Bgadvisors/>
+    },
+    {
+      path:"/reenvision",
+      element : <Reenvision/>
+    },
+    {
+      path:"/swiggy",
+      element : <Swiggy/>
+    },
+    {
+      path:"/youtube",
+      element : <Youtube/>
+    },
+    {
+      path:"/skills",
+      element : <Skills/>
+    }
+  
+]
+)
+
+
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Duration of the animation in milliseconds
+    });
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+    <Head/>
+    <RouterProvider router = {appRouter}/>
+    <Footer/>
     </div>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
