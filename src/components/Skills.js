@@ -20,7 +20,7 @@ const Skills = ({name}) =>{
             animation : "true"
         },
         {
-            name : "Swiggy Clone",
+            name : "Nature's Table",
             image : "swiggy",
             link : "/swiggy",
             animation : "false"
