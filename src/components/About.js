@@ -6,7 +6,7 @@ const About = () =>{
             <div className = "about-section pb-5 p-4 d-flex flex-column justify-content-center">
 
             <div className = "container">
-            <h3 className = "banner-name-text text-center mb-4" data-aos="fade-down">About Me</h3>
+            <h3 className = "banner-name-text text-center mb-4" data-aos="fade-down">About <span className = 'text-danger'>Me</span></h3>
                 <div className = "row align-items-center">               
                   
                 

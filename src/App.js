@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Skills from './components/Skills';
 import Bgadvisors from './components/Bgadvisors';
-import Reenvision from "./components/Reenvision";
+import Spotify from './components/Spotify';
 import Swiggy from "./components/Swiggy";
 import Youtube from "./components/Youtube"
 import "./App.css"
@@ -12,7 +12,6 @@ import Body from "./components/Body"
 import Head from "./components/Head"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import NickHandymanServices from './components/NickHandymanServices';
-import Footer from './components/Footer';
 const appRouter = createBrowserRouter([
   {
   path : "/", 
@@ -27,8 +26,8 @@ const appRouter = createBrowserRouter([
       element : <Bgadvisors/>
     },
     {
-      path:"/reenvision",
-      element : <Reenvision/>
+      path:"/spotify",
+      element : <Spotify/>
     },
     {
       path:"/swiggy",
@@ -57,9 +56,7 @@ function App() {
 
   return (
     <div>
-    <Head/>
     <RouterProvider router = {appRouter}/>
-    <Footer/>
     </div>
   );
 }

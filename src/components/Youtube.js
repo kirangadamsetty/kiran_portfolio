@@ -9,7 +9,7 @@ const Swiggy = () =>{
     return(
         <section className = "projects-detail-bg nick-bgs">
             <div className = "container">
-            <h3 className = "banner-top-text text-center pt-5 pb-5" data-aos="fade-down">Youtube</h3>
+            <h3 className = "banner-top-text text-center pt-5 pb-5" data-aos="fade-down">You<span className = 'text-danger'>tube</span></h3>
                    <div className = "row align-items-center">
                     <div className = "col-lg-4">
                    <div className = "projects-detail-image" data-aos="flip-left">

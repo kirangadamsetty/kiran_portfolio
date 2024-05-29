@@ -14,9 +14,9 @@ const Skills = ({name}) =>{
             animation : "false"
         },
         {
-            name : "Renvision",
-            image : "reenvision",
-            link : "/reenvision",
+            name : "Spotify Clone",
+            image : "spotify",
+            link : "/spotify",
             animation : "true"
         },
         {
@@ -36,7 +36,7 @@ const Skills = ({name}) =>{
         <section className = "skills-section p-4">
             <div className = "container pb-4">
                 <div className = "row justify-content-center">
-                <h3 className = "banner-name-text text-center mb-4" data-aos="fade-down">Projects</h3>
+                <h3 className = "banner-name-text text-center mb-4" data-aos="fade-down">Proj<span className = "text-danger">ects</span></h3>
                   {projectDetails.map((pro, index)=><ProjectCards key= {index} pro = {pro}/>)}  
                 </div>
             </div>
