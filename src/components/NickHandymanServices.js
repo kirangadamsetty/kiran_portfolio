@@ -1,5 +1,4 @@
 import { useContext } from "react"
-import { Link } from "react-router-dom"
 import { ThemeContext } from "./utils/ThemeContext"
 const NickHandymanServices = () =>{
     const handyman = `${process.env.PUBLIC_URL}/handyman.jpg`
@@ -26,9 +25,9 @@ const NickHandymanServices = () =>{
                    <img src = {javascript} alt = "javascript" height= "40" width = "40"/>
                    <img src = {bootstrap} alt = "bootstrap" height= "40" width = "40"/>
                    <p>Developed a comprehensive website for Nick's Handyman Services, showcasing a wide range of handyman services offered. Utilized HTML, CSS, JavaScript, and Bootstrap to create a responsive and user-friendly design. Integrated Google Analytics and Tag Manager to facilitate business analysis and track user interactions. The website effectively highlights the services provided, ensuring a seamless and engaging experience for potential customers.</p>
-                   <Link to = "https://nickshandymanservice.com/" target = "_blank">
+                   <a href = "https://nickshandymanservice.com/" target = "_blank" rel="noreferrer">
                    <button className  = "bg-danger link"><img src = {link} alt = "bootstrap" height= "40" width = "40"/></button>
-                   </Link>
+                   </a>
                     </div>
                     </div>
                 </div>

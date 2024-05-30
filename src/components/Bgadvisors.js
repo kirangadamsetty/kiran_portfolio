@@ -1,5 +1,4 @@
 import { useContext } from "react"
-import { Link } from "react-router-dom"
 import { ThemeContext } from "./utils/ThemeContext"
 const Bgadvisors = () =>{
     const bgadvisors = `${process.env.PUBLIC_URL}/bgadvisors.jpg`
@@ -26,9 +25,9 @@ const Bgadvisors = () =>{
                    <img src = {javascript} alt = "javascript" height= "40" width = "40"/>
                    <img src = {bootstrap} alt = "bootstrap" height= "40" width = "40"/>
                    <p>Developed a dynamic website for BGAdvisors, offering comprehensive guidance on financial advising. Utilized HTML, CSS, JavaScript, and Bootstrap to ensure a responsive and user-friendly interface. Incorporated a blog section to facilitate weekly blog uploads, enhancing SEO and engaging users with fresh, relevant content. The website effectively communicates the expertise of financial advisors, providing a valuable resource for clients.</p>
-                   <Link to = "https://www.bgadvisorscpa.com/" target = "_blank">
+                   <a href = "https://www.bgadvisorscpa.com/" target = "_blank" rel="noreferrer">
                    <button className  = "bg-danger link"><img src = {link} alt = "bootstrap" height= "40" width = "40"/></button>
-                   </Link>
+                   </a>
                   
                     </div>
                     </div>
