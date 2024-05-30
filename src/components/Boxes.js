@@ -1,8 +1,11 @@
+import { useContext } from "react"
+import { ThemeContext } from "./utils/ThemeContext"
 
 
 const Boxes = () =>{
+   const {theme} = useContext(ThemeContext)
     return(
-        <section className = "boxes-section p-4">
+        <section className = {`boxes-section p-4 ${theme ? "bg-white" : ""}`}>
         <div className = "container p-4">
          <div className = "row">
          <div className = "col-lg-4 box p-3" >

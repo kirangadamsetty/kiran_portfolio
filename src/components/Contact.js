@@ -22,8 +22,8 @@ const Contact = () =>{
                   <h3><img src = {phone} alt = "phone" className = "m-3 phone"/> <a href="tel:+91 7075649727" className = "text-white">+91 7075649727</a></h3>
                    <h3><img src = {email} alt = "email" className = "m-3 phone"/><a href="mailto:gadamsettykiran514@gmail.com" className = "text-white">gadamsettykiran514@gmail.com</a></h3>
                    <div className  = "text-center">
-                   <a href = "https://www.linkedin.com/in/kiran-gadhamshetty-53a096177/" target = "_blank" rel = "noopener noreferrer"><img src = {LinikedIn} alt = "linkedin"  className = "m-3"/></a>
-                   <a href = "https://github.com/kirangadamsetty?tab=repositories" target = "_blank" rel = "noopener noreferrer" className = "skills-image"><img src = {github} alt = "github"  className = "m-3"/></a>
+                   <a href = "https://www.linkedin.com/in/kiran-gadhamshetty-53a096177/" target = "_blank" rel = "noopener noreferrer" className = "skills-image-contact"><img src = {LinikedIn} alt = "linkedin"  className = "m-3"/></a>
+                   <a href = "https://github.com/kirangadamsetty?tab=repositories" target = "_blank" rel = "noopener noreferrer" className = "skills-image-contact"><img src = {github} alt = "github"  className = "m-3"/></a>
                    </div>
                 </div>
             </div>

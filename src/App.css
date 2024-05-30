@@ -10,13 +10,11 @@
 .banner-top-text{
   font-weight:600;
   font-size:50px;
-  text-shadow: 0px 5px 10px black;
 }
 
 .banner-name-text{
  font-weight:bold;
  font-size:50px;
- text-shadow: 0px 0px px black;
 }
 
 .banner-button{
@@ -136,7 +134,6 @@
  padding:15px;
  font-size:25px;
 border-radius:10px;
-text-shadow: 5px 5px 10px black;
 }
 .projects-bg{
   background-size:cover;
@@ -349,4 +346,25 @@ hr{
 .navbar-container div:hover{
   border:1px dashed white;
 }
+
+.skills-image-contact img{
+  width:40px;
+ 
+}
+
+.banner-top img, p{
+  cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 

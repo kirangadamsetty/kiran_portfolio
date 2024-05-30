@@ -1,4 +1,6 @@
+import { useContext } from "react"
 import { Link } from "react-router-dom"
+import { ThemeContext } from "./utils/ThemeContext"
 const NickHandymanServices = () =>{
     const handyman = `${process.env.PUBLIC_URL}/handyman.jpg`
     const html = `${process.env.PUBLIC_URL}/html.png`
@@ -6,10 +8,11 @@ const NickHandymanServices = () =>{
     const javascript = `${process.env.PUBLIC_URL}/js.png`
     const bootstrap = `${process.env.PUBLIC_URL}/bootstrap.png`
     const link = `${process.env.PUBLIC_URL}/link.png`
+    const {theme} = useContext(ThemeContext)
     return(
-        <section className = "projects-detail-bg nick-bgs">
+        <section className = {`projects-detail-bg nick-bgs ${theme ? "bg-white" : ""}`}>
             <div className = "container p-4">
-            <h3 className = "banner-name-text text-center pt-5 pb-5" data-aos="fade-down">Nick's Handyman <span className = "text-danger">Services</span></h3>
+            <h3 className = {`banner-name-text text-center pt-5 pb-5 ${theme ? "text-black" : ""}`} data-aos="fade-down">Nick's Handyman <span className = "text-danger">Services</span></h3>
                            <div className = "row align-items-center">
                     <div className = "col-lg-4">
                    <div className = "projects-detail-image" data-aos="flip-left">

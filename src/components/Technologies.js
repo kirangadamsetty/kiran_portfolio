@@ -12,7 +12,7 @@ const Technologies = () =>{
         <section className = "p-4 text-center bg-dark" id = "skills">
         <div className = "container pb-4">
          <h3 className = "banner-name-text text-center mb-5" data-aos="fade-down">Ski<span className = "text-danger">lls</span></h3>
-            <div className= "row gap-lg-4 justify-content-center">
+            <div className= "row gap-lg-4 justify-content-center ">
               <div className = "col-4 col-lg-1 skills-image">
                 <img src = {html} alt = "html"/>
                 <p className = "mt-2">HTML</p>

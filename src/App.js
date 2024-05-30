@@ -12,6 +12,7 @@ import Body from "./components/Body"
 import Head from "./components/Head"
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import NickHandymanServices from './components/NickHandymanServices';
+import Footer from './components/Footer';
 const appRouter = createBrowserRouter([
   {
   path : "/", 
@@ -57,6 +58,7 @@ function App() {
   return (
     <div>
     <RouterProvider router = {appRouter}/>
+    <Footer/>
     </div>
   );
 }
