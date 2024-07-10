@@ -13,7 +13,7 @@ const Spotify = () =>{
     return(
         <section className = {`projects-detail-bg nick-bgs ${theme ? "bg-white" : ""}`}>
             <div className = "container">
-            <h3 className = {`banner-name-text text-center pt-5 pb-5 ${theme ? "text-black" : ""}`} data-aos="fade-down">Spotify <span className = 'text-danger'>Clone</span></h3>
+            <h3 className = {`banner-name-text text-center pb-5 ${theme ? "text-black" : ""}`} data-aos="fade-down">Spotify <span className = 'text-danger'>Clone</span></h3>
                            <div className = "row align-items-center">
                     <div className = "col-lg-4">
                    <div className = "projects-detail-image" data-aos="flip-left">
@@ -26,7 +26,7 @@ const Spotify = () =>{
                    <img src = {css} alt = "css" height= "40" width = "40"/>
                    <img src = {javascript} alt = "javascript" height= "40" width = "40"/>
                    <img src = {react} alt = "bootstrap" height= "40" width = "40"/>
-                   <p>Developed a comprehensive website for Reenvision Eye Care, showcasing a full range of eye care services. Utilized HTML, CSS, JavaScript, and Bootstrap to create a responsive and user-friendly design. Included a dedicated e-commerce page for selling skin care products, and designed features for patients to book online appointments and explore all available services. The website effectively enhances patient engagement and streamlines service accessibility.</p>
+                   <p>Created a Spotify clone using HTML, CSS, JavaScript, and React.js, featuring an intuitive interface for music streaming. The application includes essential features like song playback with play and stop buttons, and playlist management. Its sleek and responsive design ensures a seamless user experience across devices. This project showcases my expertise in modern web development and my ability to implement interactive functionalities.</p>
                   <Link to = "https://kmusic-top.netlify.app/" target = "_blank">
                    <button className  = "bg-danger link"><img src = {link} alt = "bootstrap" height= "40" width = "40"/></button>
                    </Link>

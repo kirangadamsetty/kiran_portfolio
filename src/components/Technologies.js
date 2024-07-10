@@ -47,7 +47,7 @@ const Technologies = () =>{
               </div>
               <div className = "col-4 col-lg-1 skills-image" data-aos="flip-left">
                 <img src = {github} alt = "react"/>
-                <p className = "mt-2">Git</p>
+                <p className = "mt-2">Git Hub</p>
               </div>
             </div>
         </div>

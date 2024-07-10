@@ -239,8 +239,8 @@ border-radius:10px;
 }
 
 .nick-bgs{
- padding-top:100px;
- padding-bottom:100px;
+ padding-top:50px;
+ padding-bottom:50px;
  
 }
 
@@ -356,7 +356,9 @@ hr{
   cursor:pointer;
 }
 
-
+.skills-image img{
+  filter:drop-shadow(0 0 10px rgba(0, 0, 0, .9))
+}
 
 
 
